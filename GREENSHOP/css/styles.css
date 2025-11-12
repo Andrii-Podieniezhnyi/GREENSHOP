@@ -1,0 +1,22 @@
+span {
+    color: #46A358;
+}
+
+a {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+button[type="submit"] {
+    background-color: #46A358; 
+    color: #FFFFFF; 
+    width: 202px; 
+    border: none;
+}
+
+form button:nth-child(14), 
+form button:nth-child(16) {
+    width: 202px; 
+    background-color: #FFFFFF; 
+    border: 1px solid #EAEAEA;
+}
