@@ -1,10 +1,7 @@
+/* ------- registration page styles ------- */ 
+
 span {
     color: #46A358;
-}
-
-a {
-    text-decoration: none;
-    color: #3D3D3D;
 }
 
 button[type="submit"] {
@@ -19,4 +16,110 @@ button[type="submit"] {
     width: 202px; 
     background-color: #FFFFFF; 
     border: 1px solid #EAEAEA;
+}
+
+
+
+/* ------- header styles ------- */
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    margin-top: 26px;
+    text-align: center; 
+}
+
+header > .logo,
+header > nav,
+header > .banner-btn {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.logo {
+    width: 150px;
+}
+
+
+nav {
+    width: calc(100% - 150px - 150px); 
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block; 
+    width: 76px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(61, 61, 61, 1);
+    line-height: 45px; 
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: rgba(70, 163, 88, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-btn {
+    border-radius: 6px;
+    background: rgba(70, 163, 88, 1);
+    border: none;
+    color:  rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner-btn:hover {
+    color: #f0f0f0;
+}
+
+.banner-btn--login{
+    padding: 8px 17px;
+    font-weight: 500;
+}
+
+.banner-btn--login img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.banner-btn--shop{
+    padding: 11px 30px;
+    font-weight: 700;
+}
+
+.intro, .img-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro {
+    width: 60%;
 }
