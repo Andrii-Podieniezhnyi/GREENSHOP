@@ -1,20 +1,100 @@
-/* ------- registration page styles ------- */ 
+/* ------- registration page styles ------- */
 
+.reg-form-container {
+    text-align: center;
+}
 
+.reg{
+    color: rgba(70, 163, 88, 1);
+}
+
+.login{
+    color: rgba(61, 61, 61, 1);
+}
+
+.separator{
+    color: rgba(61, 61, 61, 1);
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 16px;
+    margin: 0 10px 0 12px;
+}
+
+.form-instruction {
+    color: rgba(61, 61, 61, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 36px
+}
+
+.reg-form > input {
+    margin-top: 16px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 5px;
+}
+
+.reg-form > input::placeholder {
+    padding-left: 14px;
+}
+
+.reg-form-line {
+    width: 97px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-instruction-bottom-text {
+    margin: 0 6px;
+}
 
 button[type="submit"] {
     background-color: #46A358; 
-    color: #FFFFFF; 
-    width: 202px; 
     border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-top: 41px;
+    padding: 16px 119px;
 }
 
 .google-reg-btn, 
-.fb-reg-btn {
-    width: 202px; 
-    background-color: #FFFFFF; 
-    border: 1px solid #EAEAEA;
+.fb-reg-btn {  
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 300px;
+    height: 40px;
+
+    color: rgba(114, 114, 114, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
 }
+
+
+.google-reg-btn img, 
+.fb-reg-btn img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+
+.google-reg-btn {
+    margin-top: 27px;
+}
+
+.fb-reg-btn {
+    margin-top: 15px;
+}
+
+
 
 
 
